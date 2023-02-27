@@ -72,7 +72,36 @@ ul, li {
     list-style-type: none;
 }
 
-a {
-    text-decoration: none;
-    color: var(--color-third);
+/* Navbar */
+
+
+
+
+nav {
+    margin: 0 0 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+.nav-elements {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links {
+    margin-left: 3.3rem;
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.menu-wrapper {
+    width: 125px;
+    height: 125px;
+    padding: 2.8rem;
+    background-color: var(--color-first);
+
+}
+
+
+
